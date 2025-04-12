@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaPipe Handpose</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer type="module" src="./script.js"></script>
+    <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
+</head>
+
+<body>
+    <section>
+        <h1>Los de som op 😃</h1>
+        <h2 id="question"></h2>
+        <button id="webcamButton">Start Webcam</button>
+        <button id="logButton" style="display: none;">Beantwoord</button>
+        <div class="videoView">
+            <div style="position: relative;">
+                <video id="webcam" muted autoplay playsinline></video>
+                <canvas id="output_canvas"></canvas>
+            </div>
+        </div>
+    </section>
+    <h1 id="statusDiv">Antwoord: </h1>
+</body>
+
+</html>
