@@ -8,16 +8,16 @@ Zorg ervoor dat je alle projectbestanden hebt gedownload en lokaal beschikbaar h
 
 ---
 
-## 2. 📁 DataCollection
+## 2. DataCollection
 
 1. Navigeer naar de map `DataCollection`.
 2. Open `index.html` in je browser.
 3. Train hier de poses.
-4. Exporteer de data.
+4. Exporteer vervolgens de data.
 
 ---
 
-## 3. 📁 Training
+## 3. Training
 
 1. Ga naar de map `Training`.
 2. Voeg `data.json` toe in deze map.
@@ -27,7 +27,7 @@ Zorg ervoor dat je alle projectbestanden hebt gedownload en lokaal beschikbaar h
 
 ---
 
-## 4. 📁 Testing
+## 4. Testing
 
 1. Voeg de drie modelbestanden toe aan de map `Testing`.
 2. Open `index.html` in je browser.
@@ -35,7 +35,7 @@ Zorg ervoor dat je alle projectbestanden hebt gedownload en lokaal beschikbaar h
 
 ---
 
-## 5. 📁 Prediction (voor eindgebruikers)
+## 5. Prediction (voor eindgebruikers)
 
 1. Voeg het getrainde model toe aan de map `Prediction`.
 2. Open `index.html` in je browser.
