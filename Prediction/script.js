@@ -119,7 +119,8 @@ function classifyHand() {
     nn.classify(numbersOnly, (results) => {
         const label = results[0].label;
         const confidence = (results[0].confidence.toFixed(2)) * 100;
-        statusDiv.innerText = `Jij koos nummer: ${label} (Zekerheid: ${confidence}%)`;
+        statusDiv.innerText = `Jij koos nummer: ${label}`;
+        console.log(`Jij koos nummer: ${label} (Zekerheid: ${confidence}%)`)
 
         checkAnswer(label);
     });
